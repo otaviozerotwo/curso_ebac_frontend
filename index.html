@@ -3,29 +3,149 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Formulário HTML</title>
+  <link rel="stylesheet" type="text/css" href="./main.css" />
+  <title>Portal de Notícias</title>
 </head>
 <body>
   <header>
-    <h1>Formulário de Cadastro</h1>
+    <div class="container">
+      <h1>Meu Portal de Notícias</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#sports" title="Ir para seção de esportes">Esportes</a>
+          </li>
+          <li>
+            <a href="#economy" title="Ir para seção de economia">Economia</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
+  <section id="sports">
+    <div class="container">
+      <h2>Esportes</h2>
+
+      <div class="articles">
+        <article>
+          <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+          <header>
+            <time class="creation-date">19/05/2024 às 17:29</time>
+          </header>
+
+          <h3>Grande clássico na noite de hoje</h3>
+          
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illo itaque dolor velit reprehenderit, ad facere, fugiat repellendus incidunt assumenda fugit rem earum nemo temporibus, nobis enim minima nam? Magni!
+          </p>
+
+          <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        
+        <article>
+          <img src="./imagens/futebol-americano.jpg" alt="Jogador segurando bola de futebol americano" />
+          <header>
+            <time class="creation-date">19/05/2024 às 17:33</time>
+          </header>
+
+          <h3>Noite do Superbowl</h3>
+          
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illo itaque dolor velit reprehenderit, ad facere, fugiat repellendus incidunt assumenda fugit rem earum nemo temporibus, nobis enim minima nam? Magni!
+          </p>
+
+          <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+
+        <article>
+          <img src="./imagens/basquete.jpg" alt="Imagem aérea de ginásio de basquete" />
+          <header>
+            <time class="creation-date">19/05/2024 às 17:35</time>
+          </header>
+
+          <h3>Notícias sobre a NBA</h3>
+          
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illo itaque dolor velit reprehenderit, ad facere, fugiat repellendus incidunt assumenda fugit rem earum nemo temporibus, nobis enim minima nam? Magni!
+          </p>
+
+          <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+
+        <article>
+          <img src="./imagens/jogos-olimpicos.jpeg" alt="Logo dos jogos olímpicos Paris 2024" />
+          <header>
+            <time class="creation-date">19/05/2024 às 17:39</time>
+          </header>
+
+          <h3>Tudo sobre os Jogos Olímpicos</h3>
+          
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illo itaque dolor velit reprehenderit, ad facere, fugiat repellendus incidunt assumenda fugit rem earum nemo temporibus, nobis enim minima nam? Magni!
+          </p>
+
+          <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+      </div>
+    </div>
+  </section>
+  
+  <section id="economy">
+    <div class="container">
+      <h2>Economia</h2>
+
+      <div class="articles">
+        <article>
+          <img src="./imagens/dolares.jpg" alt="Notas de 1 Dolar empilhadas" />
+          <header>
+            <time class="creation-date">19/05/2024 às 17:42</time>
+          </header>
+
+          <h3>Dólar em alta de 0.50%</h3>
+          
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illo itaque dolor velit reprehenderit, ad facere, fugiat repellendus incidunt assumenda fugit rem earum nemo temporibus, nobis enim minima nam? Magni!
+          </p>
+
+          <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        
+        <article>
+          <img src="./imagens/euro.jpg" alt="Notas de Euro de vários valores" />
+          <header>
+            <time class="creation-date">19/05/2024 às 17:43</time>
+          </header>
+
+          <h3>Euro em queda de 0.40%</h3>
+          
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illo itaque dolor velit reprehenderit, ad facere, fugiat repellendus incidunt assumenda fugit rem earum nemo temporibus, nobis enim minima nam? Magni!
+          </p>
+
+          <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+
+        <article>
+          <img src="./imagens/petroleo.jpg" alt="Foto de sombra de uma bomba de vareta de sucção de petróleo" />
+          <header>
+            <time class="creation-date">19/05/2024 às 17:46</time>
+          </header>
+
+          <h3>Alta no preço do barril de petróleo</h3>
+          
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illo itaque dolor velit reprehenderit, ad facere, fugiat repellendus incidunt assumenda fugit rem earum nemo temporibus, nobis enim minima nam? Magni!
+          </p>
+
+          <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <main>
-    <form>
-      <label for="nome">Nome </label>
-      <input id="nome" type="text" />
-      <br />
-
-      <label for="email">E-mail </label>
-      <input id="email" type="email" />
-      <br />
-
-      <label for="senha">Senha </label>
-      <input id="senha" type="password" />
-      <br />
-
-      <button type="submit">Cadastrar</button>
-    </form>
+    
   </main>
 </body>
 </html>
