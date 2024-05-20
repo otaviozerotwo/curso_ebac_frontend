@@ -11,3 +11,7 @@ https://gist.github.com/leocomelli/2545add34e4fec21ec16
 ## Principais Input Types:
 
 https://www.w3schools.com/html/html_form_input_types.asp
+
+## Propriedade object-fit CSS
+
+https://www.w3schools.com/css/css3_object-fit.asp
