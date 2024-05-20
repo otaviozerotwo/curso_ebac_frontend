@@ -40,8 +40,10 @@ header li a {
 }
 
 .articles article img {
-  /* height: 180px; */
+  height: 280px;
   width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .articles article {
