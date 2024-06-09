@@ -2,4 +2,46 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 80px auto;
+  max-width: 340px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #671880;
+}
+
+form {
+  margin-top: 40px;
+}
+
+input,
+button {
+  display: block;
+  padding: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+  border: 1px solid #671880;
+  border-radius: 4px;
+  outline-color: #671880;
+}
+
+button {
+  background-color: #671880;
+  border: none;
+  text-transform: uppercase;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 18px;
+  font-style: italic;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #520c68;
 }
