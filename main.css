@@ -45,3 +45,20 @@ button {
 button:hover {
   background-color: #520c68;
 }
+
+.success-message,
+.error-message {
+  display: none;
+  padding: 16px;
+  color: #FFF;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.error-message {
+  background-color: red;
+}
+
+.success-message {
+  background-color: #0f9266;
+}
