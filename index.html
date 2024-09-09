@@ -3,24 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Formulário HTML + JS</title>
-
-  <link rel="stylesheet" href="./main.css">
-
+  <title>Lista de Tarefas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=SUSE&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Compara valores</h1>
-    <form id="formComparaValores">
-      <input type="number" id="campoA" placeholder="Digite um número">
-      <input type="number" id="campoB" placeholder="Digite outro número">
-      <button type="submit" id="btn-enviar">Enviar</button>
-    </form>
+  <div class="main-container">
+    <header>
+      <h1>Lista de Tarefas</h1>
+    </header>
 
-    <p class="success-message"></p>
-    <p class="error-message"></p>
+    <form id="form-lista-tarefas">
+      <input type="text" id="nome-tarefa" placeholder="Nome da tarefa" required />
+      <button type="submit" id="btn-cadastrar-tarefa">Cadastrar</button>
+    </form>
+    
+    <ul id="lista-tarefas"></ul>
   </div>
 
-  <script src="./main.js"></script>
+  <script src="js/jquery-3.7.1.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SUSE", sans-serif;
+}
+
+body {
+  background-color: #F2F2F2;
+  padding-top: 36px;
+}
+
+.main-container {
+  max-width: 556px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 12px 0;
+  border-bottom: 1px solid #000;
+}
+
+header h1 {
+  text-align: center;
+}
+
+#form-lista-tarefas {
+  padding: 12px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#nome-tarefa,
+#btn-cadastrar-tarefa {
+  width: 60%;
+  padding: 7px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  margin-bottom: 3px;
+}
+
+#btn-cadastrar-tarefa {
+  background-color: #006400;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#btn-cadastrar-tarefa:hover {
+  opacity: 1;
+}
+
+#lista-tarefas {
+  margin-left: 10%;
+}
+
+li {
+  margin-bottom: 7px;
+  cursor: pointer;
+}
