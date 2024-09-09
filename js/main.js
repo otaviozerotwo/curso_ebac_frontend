@@ -4,7 +4,13 @@ $(document).ready(function() {
     
     const inputTarefa = $('#nome-tarefa').val();
     
-    const elementoLi = `<li>${inputTarefa}</li>`;
-    $('#lista-tarefas').append(elementoLi);
+    const novaTarefa = `<li class="tarefa">${inputTarefa}</li>`;
+    $('#lista-tarefas').append(novaTarefa);
+
+    $('.tarefa').click(function() {
+      $('.tarefa').css("text-decoration", "line-through");
+    });
+
+    $('#nome-tarefa').val('');
   });
 });
