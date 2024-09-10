@@ -4,13 +4,26 @@ $(document).ready(function() {
     
     const inputTarefa = $('#nome-tarefa').val();
     
-    const novaTarefa = `<li class="tarefa">${inputTarefa}</li>`;
-    $('#lista-tarefas').append(novaTarefa);
-
-    $('.tarefa').click(function() {
-      $('.tarefa').css("text-decoration", "line-through");
-    });
-
-    $('#nome-tarefa').val('');
+    if (inputTarefa) {
+      adicionarTarefa(inputTarefa);
+      limparInput();
+      riscarTarefa();
+    }
+    
   });
 });
+
+function adicionarTarefa(tarefa) {
+  const novaTarefa = $(`<li>${tarefa}</li>`);
+  $(novaTarefa).appendTo('#lista-tarefas');
+}
+
+function limparInput() {
+  $('#nome-tarefa').val('');
+}
+
+function riscarTarefa() {
+  $('li').on('click', function() {
+    $(this).css({"text-decoration": "line-through"});
+  });
+}
