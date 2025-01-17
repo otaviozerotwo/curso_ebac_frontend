@@ -1,15 +1,9 @@
-# Exercício Módulo 12
+# Exercício Módulo 15
 
-A entrega deste exercício consiste em:
+Neste exercício você deve:
 
-
-
-• Adicionar o Bootstrap em uma página HTML utilizando a CDN;
-
-• Nesta página HTML, crie um formulário de cadastro que deverá conter os campos: nome, e-mail e telefone, e um botão para o envio;
-
-• Aplique as classes do Bootstrap nos elementos do formulário;
-
-• Crie uma branch chamada exercicio_bootstrap no repositório do curso;
-
-• Envie o link através da plataforma. 
+1) Converter o CSS do projeto disponibilizado na área "Material de apoio" para o SASS;
+2) Utilizar as variáveis do SASS;
+3) Utilizar os módulos do SASS;
+4) Criar uma branch chamada exercicio_sass no repositório do curso;
+5) Armazenar os arquivos SASS nesta branch e enviar o link do repositório através da plataforma.
