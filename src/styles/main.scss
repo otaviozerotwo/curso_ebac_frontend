@@ -1,0 +1,38 @@
+@use 'fonts/fonts';
+@use 'colors/colors';
+
+body {
+  color: colors.$white;
+  font-family: fonts.$font-family-montserrat;
+}
+
+header,
+footer {
+  background-color: colors.$pink;
+}
+
+.nav-link {
+  color: colors.$white;
+
+  &:hover {
+    color: colors.$gray;
+  }
+}
+
+.section-carousel {
+  background-color: colors.$blue-1;
+  height: calc(100vh - 80px);
+}
+
+.carousel img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.section-other-images {
+  background-color: colors.$blue-2;
+  
+  img {
+    cursor: pointer;
+  }
+}

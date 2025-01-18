@@ -1,9 +1,11 @@
-# Exercício Módulo 15
+# Exercício Módulo 16
 
 Neste exercício você deve:
 
-1) Converter o CSS do projeto disponibilizado na área "Material de apoio" para o SASS;
-2) Utilizar as variáveis do SASS;
-3) Utilizar os módulos do SASS;
-4) Criar uma branch chamada exercicio_sass no repositório do curso;
-5) Armazenar os arquivos SASS nesta branch e enviar o link do repositório através da plataforma.
+1) Criar um arquivo Gulpfile que deverá executar as tarefas:
+* compilação do SASS;
+* compressão de imagens disponibilizadas no Material de apoio;
+* compressão de código JavaScript.
+2) Criar um branch chamada exercicio_gulp.
+3) Armazenar o projeto completo, incluindo o arquivo Gulpfile, neste branch.
+4) Enviar o link do repositório através da plataforma.
