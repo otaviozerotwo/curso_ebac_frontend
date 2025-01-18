@@ -34,5 +34,10 @@ footer {
   
   img {
     cursor: pointer;
+    transition: all ease .3s;
+    
+    &:hover {
+      transform: scale(1.04);
+    }
   }
 }
