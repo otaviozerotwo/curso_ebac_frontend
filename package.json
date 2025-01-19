@@ -1,20 +1,16 @@
 {
   "name": "curso_ebac_frontend",
   "version": "1.0.0",
-  "description": "Neste exercício você deve:",
+  "description": "Neste exercício você deverá:",
   "main": "index.js",
   "scripts": {
-    "gulp": "gulp",
+    "less": "less-watch-compiler ./src/styles ./build/styles main.less",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^5.0.0",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-sass": "^6.0.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-uglify": "^3.0.2",
-    "sass": "^1.83.4"
+    "less": "^4.2.1",
+    "less-watch-compiler": "^1.16.3"
   }
 }
