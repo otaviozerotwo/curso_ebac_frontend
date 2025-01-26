@@ -1,13 +1,10 @@
-# Exercício Módulo 17
+# Exercício Módulo 18
 
 Neste exercício você deverá:
 
-1) Converter o estilo do projeto disponibilizado no Material de apoio para o LESS;
-2) Utilizar os recursos do LESS que aprendeu durante o módulo:
-* variáveis;
-* divisão dos arquivos;
-* escapings;
-* mapas.
-3) Crie uma branch chamada exercicio_less no repositório do curso.
-4) Armazene os arquivos LESS nesta branch.
-5) Envie o link da branch através da plataforma.
+1) Criar um arquivo Gruntfile;
+2) Executar a compilação do LESS;
+3) Executar a compressão de código JavaScript;
+4) Criar um branch chamada "exercicio_grunt";
+5) Armazenar o arquivo Gruntfile nesta branch;
+6) Enviar o link do repositório através da plataforma.
