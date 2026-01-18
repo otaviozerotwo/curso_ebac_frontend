@@ -9,6 +9,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
   fetch('https://api.github.com/users/otaviozerotwo')
     .then(function(res) {
+      // fetch não rejeita em respostas HTTP com erro (404, 500, ...).
+      // Precisamos checar `res.ok` e lançar o response para que o `catch` seja acionado.
+      if (!res.ok) {
+        throw res;
+      }
+
       return res.json();
     })
     .then(function(json) {
@@ -19,5 +25,12 @@ document.addEventListener('DOMContentLoaded', function() {
       followersElement.innerHTML = json.followers;
       followingElement.innerHTML = json.following;
       linkElement.href = json.html_url;
+    })
+    .catch(function(error) {
+      if (error.status === 404) {
+        alert('Usuário não encontrado.');
+      } else {
+        alert('Erro na chamada da API.');
+      }
     })
 })
