@@ -1,9 +1,15 @@
-# Exercício Módulo 23
+# Exercício Módulo 24
 
-Neste exercício você deverá:
+A entrega deste exercício consiste em:
 
-1) Adaptar o projeto disponibilizado na plataforma para que os dados sejam preenchidos via requisição Ajax.
-2) Usar o que aprendeu no módulo sobre try catch fetch API ou xmlHttpRequest.
-3) Criar uma branch chamada exercicio_ajax no repositório do projeto (Github).
-4) Armazenar o código alterado lá.
-5) Enviar o link do repositório através da plataforma.
+
+
+• Crie uma classe de uma abstração;
+
+• Crie pelo menos duas classes que sejam herdeiras da classe criada anteriormente;
+
+• Crie pelo menos três instâncias de objetos;
+
+• No repositório do curso crie uma branch chamada oo_js e armazene o código do exercício.
+
+• Envie o link do repositório através da plataforma. 
