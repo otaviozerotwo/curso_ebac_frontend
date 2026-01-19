@@ -1,15 +1,11 @@
-# Exercício Módulo 24
+# Exercício Módulo 25
 
 A entrega deste exercício consiste em:
 
 
 
-• Crie uma classe de uma abstração;
+• Cria um array de objetos, onde teremos como atributos do objeto: o nome e a nota de alunos;
 
-• Crie pelo menos duas classes que sejam herdeiras da classe criada anteriormente;
+• Criar uma função que irá retornar apenas os alunos que tiveram a nota maior ou igual à 6;
 
-• Crie pelo menos três instâncias de objetos;
-
-• No repositório do curso crie uma branch chamada oo_js e armazene o código do exercício.
-
-• Envie o link do repositório através da plataforma. 
+• Crie uma branch exercicio_es6 no repositório do curso, armazene o código nesta branch e nos envie o link através da plataforma. 
