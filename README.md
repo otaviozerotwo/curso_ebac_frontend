@@ -1,11 +1,13 @@
-# Exercício Módulo 25
+# Entrega: Exercício módulo 34
 
-A entrega deste exercício consiste em:
+No exercício você deverá:
 
-
-
-• Cria um array de objetos, onde teremos como atributos do objeto: o nome e a nota de alunos;
-
-• Criar uma função que irá retornar apenas os alunos que tiveram a nota maior ou igual à 6;
-
-• Crie uma branch exercicio_es6 no repositório do curso, armazene o código nesta branch e nos envie o link através da plataforma. 
+1) Criar um projeto de testes utilizando o Cypress;
+2) No script de testes você deverá testar as funcionalidades da aplicação disponível no link https://ebac-agenda-contatos-tan.vercel.app/
+3) Testar as funcionalidades:
+* inclusão;
+* alteração;
+* remoção de um contato;
+4) No repositório do curso, criar uma branch chamada __exercicio_cypress__;
+5) Armazenar nessa branch o conteúdo do projeto de teste;
+6) Enviar o link do repositório através da plataforma.
